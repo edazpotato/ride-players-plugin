@@ -1,0 +1,12 @@
+name: RidePlayers
+version: ${project.version}
+main: codes.edaz.rideplayers.RidePlayers
+api-version: 1.16
+authors: [ Edazpotato ]
+description: A PaperMC plugin that lets you ride on other players and make huge stacks
+website: https://edaz.codes/ride-players-plugin
+commands:
+  kickpassengers:
+    description: Kick people riding you off
+    usage: /kickriders or /kickpassengers
+    aliases: [kr, kickpassengers, kp]
